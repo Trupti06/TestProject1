@@ -9,7 +9,7 @@ describe("First test suite",function(){
         cy.get('.btn_primary').click(),
         cy.get('path').click(),
         cy.get('.btn_action').click(),
-        cy.get('[data-test=firstName]').type('Trupti'),
+        cy.get('[data-test=firstName]').type('Urmila'),
         cy.get('[data-test=lastName]').type('Dadhich'),
         cy.get('[data-test=postalCode]').type('306401'),
         cy.get('.btn_primary').click();
